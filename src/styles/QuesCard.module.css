@@ -1,0 +1,30 @@
+.quesContainer{
+  min-height: 600px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.question{
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.options{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding-left: 15px;
+  border: 1px solid #686868;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.selectedOption{
+  border: 1px solid rgb(110, 74, 198);
+  background-color: rgb(166, 134, 247);
+  color: white;
+}

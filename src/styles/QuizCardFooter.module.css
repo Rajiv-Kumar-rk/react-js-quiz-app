@@ -1,0 +1,23 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.nextBtn, .submitBtn{
+  margin-top: -55px;
+  width: 250px;
+  height: 65px;
+  background: #553f9a;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pagination{
+  margin-top: 20px;
+  font-size: 20px;
+}
